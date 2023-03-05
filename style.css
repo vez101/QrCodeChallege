@@ -6,19 +6,25 @@ body {
 }
 
 .mainBox {
+  width: 90%;
   background-color: #ffffff;
   align-self: center;
   border-radius: 0.8rem;
   margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .mainBox_qrCode_img {
-  height: 18rem;
+  height: calc(70vw + 2rem);
   border-radius: 0.8rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 1rem;
+  margin-top: 6vw;
 }
 .mainBox_title {
+  width: 80%;
   font-size: 1.4rem;
   font-weight: 700;
   text-align: center;
@@ -26,6 +32,7 @@ body {
   color: rgb(26, 25, 25);
 }
 .mainBox_text {
+  width: 75%;
   font-size: 1.1rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
