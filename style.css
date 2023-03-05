@@ -39,4 +39,10 @@ body {
   text-align: center;
   padding-bottom: 3rem;
   margin: 1rem 5%;
+}
+.mainBox_input {
+  margin-bottom: 2rem;
+}
+.mainBox_btn {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=style.css.map */
